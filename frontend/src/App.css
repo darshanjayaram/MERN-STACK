@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register, .login {
+  background-color: lightcoral;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 30px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: seagreen;
+  cursor: pointer;
+}
